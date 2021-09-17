@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Css Examples</title>
+	<!-- 	external css add-->	
+	<link rel="stylesheet" type="text/css" href="external.css">
+	<!--    internal css   -->
+	<style>
+		#t2{
+			color: green;
+		}
+		.container {
+			margin: 20px;
+			padding: 20px;
+			background: gray;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h3>Types of CSS</h3>
+	<div>
+		<dl class="MyClass1">
+		<dt>1. External</dt>
+		<dd>AN external css file addes</dd>
+		<dt>2. Internal</dt>
+		<dd>add css style in header of document</dd>
+		<dt>3. Inline</dt>
+		<dd>apply css in tag using style attribute</dd>
+	</dl>
+	</div>
+	
+	<p id="t1">I am a paragraph with id t1</p>
+
+	<p class="center large">I am just another paragraph with class center</p>
+
+	<h5 id="t2">I am h5 tag with id t2</h5>
+	<!-- 	an inline css-->	
+	<p style="background-color:yellow; color: black; text-align: center;">An example of inline css</p>
+</div>
+</body>
+</html>

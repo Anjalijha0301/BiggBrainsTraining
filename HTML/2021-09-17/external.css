@@ -1,0 +1,32 @@
+
+/*selector*/
+h3 {
+  text-align: center;
+  color: red;
+}
+
+/*id*/
+#t1 {
+  color: blueviolet;
+}
+
+/*class*/
+.MyClass1{
+  background-color: lightgray;
+  padding: 10px;
+}
+.CenterClass{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+/*element class*/
+p.center{
+  text-align: center;
+  background-color: red;
+  padding: 20px;
+}
+p.large{
+  font-size: large;
+}
