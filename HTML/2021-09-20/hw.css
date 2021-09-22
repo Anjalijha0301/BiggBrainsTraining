@@ -1,0 +1,28 @@
+body{
+	background-color: lightcoral;
+	font-size: 50px;
+	color: darkred;
+	outline-style: double;
+	outline-color: black;
+	/*outline-width: 10px;*/
+	outline-offset: inherit;
+border: solid grey;
+
+}
+P.center {
+  text-align: center;
+  font-family: cursive;
+}
+h1.line{
+	  text-decoration: line-through;
+	    text-transform: lowercase;
+	      text-shadow: 2px 2px;
+          color: black;
+
+
+}
+
+#bg {
+ background-image: url("SHRUTI.jpeg");
+background-size: cover;
+}

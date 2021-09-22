@@ -1,0 +1,35 @@
+#t2{
+	color: darkred;
+	padding: 50px;
+	text-align: center;
+	font-size: 50px;
+	background-color: plum;
+	margin: 70px;
+	}
+
+body {
+    background-color:lightpink;
+    margin:20px;
+     }
+
+.order{
+	font-size: 25px;
+    color: goldenrod;
+    background-color: rebeccapurple;
+    padding: 30px;
+     }
+.center{
+	color: mediumaquamarine;
+	text-align: center;
+      }
+ h2.CenterClass{color: rebeccapurple;
+ 	      	background-color: lightcoral;
+      	    adding: 10px;
+      	    border: solid purple;
+      	    padding: 10px;
+      	  }
+      	  
+
+
+
+
