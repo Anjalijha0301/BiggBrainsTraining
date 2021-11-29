@@ -1,0 +1,111 @@
+* {
+    font-family: font-family: Arial, Helvetica, sans-serif;
+    ;
+}
+
+
+
+.centered-and-cropped {
+    object-fit: cover
+}
+
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    color: black;
+    background-color: #19703c;
+}
+
+.form-control {
+    float: right;
+}
+
+.tab-content {
+    min-height: 500px;
+}
+
+.container {
+    background-color: #d9d9d9;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+
+.Welcome {
+    margin-top: 150px;
+    /*    background-color: #9e6221;*/
+    color: white;
+    text-align: center;
+    font-family: 'Zen Antique Soft', serif;
+    padding: 5px;
+    margin-bottom: 0;
+    font-size: 80px;
+}
+
+
+.card-text {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+table tr:hover {
+    background-color: #d4ab83;
+}
+
+.footer {
+    background-color: #b84025;
+
+
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Zen Antique Soft', serif;
+
+
+}
+
+.btn {
+    margin-left: 680px;
+    background-color: white;
+    color: #b84025;
+
+}
+
+.FAQs {
+    background-color: #f5cda2;
+    padding: 5px;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-family: cursive;
+    /*    font-family: "Lucida Console", "Courier New", cursive;
+*/
+}
+
+.carousel-item {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
+
+
+.carousel-inner {
+    height: 500px;
+}

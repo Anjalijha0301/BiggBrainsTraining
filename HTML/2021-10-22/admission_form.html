@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rpvvAdmissionform</title>
+    <link rel="stylesheet" type="text/css" href="admission_form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading">RPVV ROHINI SECTOR-21<br> (2021-2022)</h1>
+        <div class="form_area">
+            <form action="/action_page.php">
+                <label for="name">Enter your first name:</label><br>
+                <input type="text" id="name" name="firstname" placeholder="First name.." required><br>
+                <label for="lname">Enter your last name:</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Last name.." required><br>
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday" min="2002-12-01" max="2025-01-01" required><br>
+                <label for="gender">Gender:</label><br>
+                <div id="radio">
+                    <input type="radio" id="" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other<br>
+                </div>
+                <label for="phone"> Phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="0000000000" required>
+                <br>
+                <!-- <select name="gender">
+            <option value="none" selected>None</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> -->
+                <label for="fname">Father's name:</label><br>
+                <input type="text" id="fname" name="Father's name" placeholder="Father's name" required><br>
+                <label for="fname">Mother's name:</label><br>
+                <input type="text" id="Mname" name="Mother's name" placeholder="Mother's name" required><br>
+                <label for="class"> Admission for class:</label><br>
+                <select name="class">
+                    <option value="2th">2th</option>
+                    <option value="3th">3th</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                    <option value="6th">6th</option>
+                    <option value="7th">7th</option>
+                    <option value="8th">8th</option>
+                    <option value="9th" selected>9th</option>
+                    <option value="10th">10th</option>
+                    <option value="11th">11th</option>
+                    <option value="12th">12th</option>
+                </select><br>
+                <input type="Submit" id="button" value="Submit" onClick="alert('Thanks for submission, please click Next button to go the next page');">
+                <input type="Reset" id="button" value="Next" onclick="location.href='/form_next.html'">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

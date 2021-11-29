@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>jsfuction</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your lucky number is!!!</h1>
+        <h2 id="num">Please click your luckiest number</h2>
+        <button class="button" onclick="changeNumber()">click</button>
+        <h1>Which day was your happiest day!!!</h1>
+        <h2 id="Date">Click here to select your date</h2>
+        <button class="button" onclick="changeDate()">click</button>
+    </div>
+    <script type="text/javascript">
+    function changeNumber() {
+        var n = Math.floor(Math.random() * 10);
+        document.getElementById('num').innerHTML = n;
+        if (n < 5) {
+            document.getElementById('num').style.color = "red"
+            document.getElementById('num').style.fontSize = "25px";
+
+        } else {
+            document.getElementById('num').style.color = "blue"
+
+            document.getElementById('num').style.fontSize = "50px";
+
+
+        }
+
+    }
+
+    function changeDate() {
+        document.getElementById('Date').innerHTML = Date();
+    }
+    </script>
+</body>
+
+</html>

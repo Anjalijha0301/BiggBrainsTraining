@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Icon</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+    .heading {
+        padding: 2px;
+        color: white;
+        background-color: red;
+        font-size: 20px;
+    }
+
+    a:link {
+        margin: 20px;
+        text-decoration: none;
+        outline: 2px solid red;
+        padding: 6px;
+
+    }
+
+    a:visited {
+        color: darkred;
+        outline-color: red;
+    }
+
+    a:hover {
+        color: white;
+        background-color: red;
+        cursor: pointer;
+    }
+
+    a:active {
+        outline: none;
+        color: white;
+        background-color: gray;
+        cursor: progress;
+    }
+
+    ol {
+        background-color: pink;
+    }
+
+    #a {
+        list-style-type: square;
+    }
+
+    #b {
+        list-style-type: lower-roman;
+    }
+
+    #c {
+        /*list-style-type: disc;*/
+        list-style-image: url(icon.png);
+    }
+
+    #d {
+        list-style-position: inside;
+    }
+
+    ul {
+        background-color: gray;
+    }
+
+    table,
+    td,
+    th {
+        border: 2px solid green;
+        width: 40%;
+        padding: 5px;
+        border-collapse: collapse;
+        cursor: pointer;
+    }
+
+    th {
+        height: 50px;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: lightgreen;
+        height: 51px;
+
+    }
+
+    div.static {
+        color: red;
+        background-color: yellow;
+        position: static;
+    }
+
+    div.relative {
+        background-color: pink;
+        position: relative;
+    }
+
+    div.fixed {
+        position: fixed;
+        color: white;
+        background-color: gray;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73AD21;
+    }
+
+    div.absolute {
+        background-color: lightslategrey;
+        position: absolute;
+    }
+
+    div.sticky {
+        background-color: seagreen;
+        position: -webkit-sticky;
+        position: sticky;
+    }
+
+    .Overflow {
+        width: 500px;
+        height: 200px;
+        background-color: lightgrey;
+        /*overflow: visible;*/
+        /*overflow: scroll;*/
+        /*overflow: hidden;*/
+        /*overflow: auto;*/
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .container {
+        outline: 5px solid blue;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #box1 {
+        outline: 2px solid red;
+        float: left;
+        width: 30%;
+        clear: both;
+
+    }
+
+    #box2 {
+        outline: 2px solid blueviolet;
+        float: left;
+        width: 30%;
+
+    }
+
+    #box3 {
+        clear: left;
+        outline: 2px solid orange;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+
+    }
+
+    /*.student {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 40%;
+    }*/
+    </style>
+</head>
+
+<body>
+    <div class="sticky">
+        <h1> Hello guys im sticky</h1>
+    </div>
+    <div class="absolute">
+        <h1> Hello guys im absolute</h1>
+    </div>
+    <h3>5. Position</h3>
+    <div class="static">
+        <h1> Hello guys im static</h1>
+    </div>
+    <div class="relative">
+        <h1> Hello guys im relative</h1>
+    </div>
+    <div class="fixed">
+        <h1> Hello guys im fixed</h1>
+    </div>
+    <div class="heading">
+        <h3>This is practice session of css from icon to maths function.</h3>
+    </div>
+    <div class="icon">
+        <h3>1. Icons</h3>
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-file"></i>
+        <!--  Bootstrap Icons -->
+        <i class="glyphicon glyphicon-cloud"></i>
+        <i class="glyphicon glyphicon-user"></i>
+        <i class="glyphicon glyphicon-thumbs-up"></i>
+        <!-- Google Icons -->
+        <i class="material-icons">traffic</i>
+        <i class="material-icons">attachment</i>
+    </div>
+    <h3>2. Links</h3>
+    <a href="https://www.flipkart.com/" target="_blank"> click here and see magical world</a>
+    <h3>3. List</h3>
+    <ol>
+        <li id="a">apple</li>
+        <li id="b">banana</li>
+    </ol>
+    <ul>
+        <li id="c">papaya</li>
+        <li id="d">orange</li>
+    </ul>
+    <h3>6. Overflow</h3>
+    <div class="Overflow">
+        <p>This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+        </p>
+    </div>
+    <h3>7. clearfix</h3>
+    <div class="container">
+        <div class="clearfix">
+            <div id="box1">ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui</div>
+            <div id="box2">ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui</div>
+            <div id="box3">ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui</div>
+        </div>
+    </div>
+    <h3> 4.Table</h3>
+    <div style="overflow-x: auto;">
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Mango</td>
+                <td>50rs</td>
+                <td>5kg</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>80rs</td>
+                <td>4kg</td>
+            </tr>
+            <tr>
+                <td>Onion</td>
+                <td>40rs</td>
+                <td>15kg</td>
+            </tr>
+        </table>
+        <!-- <img class="student" src="C:\Users\bhawn\Desktop\bh.jpeg"> -->
+</body>
+
+</html>

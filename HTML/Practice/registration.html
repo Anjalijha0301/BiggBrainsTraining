@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>QIKPAY registration</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="clearfix">
+            <div class="rightbox">
+                <img class="logo" src="C:\Users\bhawn\Desktop\logo1.jpg">
+                <div class="center-container">
+                    <img class="hello" src="C:\Users\bhawn\Desktop\hello.jpg">
+                    <h2>Registration form</h2>
+                    <p>Please fill your details to submitt your form</p>
+                    <form action="/action_page.php" target="_blank">
+                        <label for="NAME"><b>NAME</b></label><br>
+                        <input class="input-txt" type="text" id="NAME" name="NAME" placeholder="Enter your name"><br>
+                        <label for="username"><b>Phone Number</b></label><br>
+                        <input class="input-txt" type="text" id="username" name="username" placeholder="eg. 8888....40" pattern="[0-9]{14}" required><br>
+                        <label for="Email"><b>Email id</b></label><br>
+                        <input class="input-txt" pattern="^(?:(?!.*?[.]{2})[a-zA-Z0-9](?:[a-zA-Z0-9.+!%-]{1,64}|)|\" [a-zA-Z0-9.+!% -]{1,64}\")@[a-zA-Z0-9][a-zA-Z0-9.-]+(.[a-z]{2,}|.[0-9]{1,})$ " type=" text" id="Email" name="Email" placeholder="Enter your Email ID" required><br>
+                        <label for="username"><b>Address</b></label><br>
+                        <input class="input-txt" type="text" id="add" name="add" placeholder="Enter your Address"><br>
+                        <div class="flexbox-container">
+                            <div class="flexbox-container-nosapce">
+                                <input type="checkbox" value="I agree" id="I agree">
+                                <label for="I agree">I agree</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit">Submit</button><br>
+                        <button type="reset" class="reset">Reset</button>
+                    </form>
+                </div>
+            </div>
+            <div class="leftbox">
+                <img class="image" src="C:\Users\bhawn\Desktop\LoginPageSliderImage.jpg">
+                <h1>Get your payment setteled
+                    <br>in minutes</h1>
+                <p id="p2">
+                    Connect your bank card, and create accounts <br>in the selected currency.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

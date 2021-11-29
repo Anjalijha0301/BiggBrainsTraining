@@ -1,0 +1,155 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.container {
+    background-color: #318eb0;
+    /*     min-width: 750px;*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 100%;
+
+}
+
+
+#heading {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.form_area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dedede;
+    padding: 60px;
+    font-size: 16px;
+    max-width: 800px;
+    margin-left: 350PX;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+
+}
+
+@media only screen and (max-width: 1411px) {
+
+    .form_area,
+        {
+        min-width: 500px;
+    }
+
+    .heading {
+        /*        text-align: center;*/
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .container {
+        min-width: 1458px;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+}
+
+
+
+
+input[type=text],
+select {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+    border-radius: 18px;
+    border: 1px solid #a8abad;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+input[type=text]:focus {
+    outline: 3px solid #318eb0;
+}
+
+label {
+    padding: 10px;
+    /*    outline: 2px solid red;*/
+}
+
+#birthday {
+    /*    outline: 1px solid darkred;*/
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #a8abad;
+    padding: 3px;
+    transition-duration: 0.4s;
+
+
+
+}
+
+#birthday:hover {
+    background-color: #318eb0;
+}
+
+#radio {
+    padding: 4px;
+    margin-left: 100px;
+    transition-duration: 0.5s;
+
+}
+
+#radio:hover {
+    background-color: #a5bec4;
+}
+
+#phone {
+    padding: 2px;
+    margin: 20px;
+    border: 1px solid #a8abad;
+
+}
+
+#phone:hover {
+    outline: 2px solid #318eb0;
+    ;
+}
+
+
+#button {
+    background-color: #318eb0;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 15px;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 1px 3px 2px #000001;
+    border-radius: 10px;
+
+
+}
+
+#button:hover {
+    background-color: #a5bec4;
+    color: black;
+
+}

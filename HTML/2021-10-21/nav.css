@@ -1,0 +1,106 @@
+ul {
+    position: fixed;
+    background-color: #857b76;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    outline: none;
+    width: 100%;
+
+}
+
+
+li {
+    outline: none;
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    z-index: 1;
+}
+
+li a:hover:not(.home) {
+    /*    border: 1px solid #cacfcd;
+*/
+    background-color: #6e6a68;
+}
+
+.home {
+    margin: 0;
+    background-color: #4cc79a;
+}
+
+.home:hover {
+    background-color: #379472;
+}
+
+.container {
+    margin-left: 25%;
+    padding: 100px 16px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .home {
+    background-color: #3e8e41;
+}
+
+.galary {
+    display: table;
+    border: 1px solid #c1c3c7;
+    width: 200px;
+    align-items: center;
+
+}
+
+.desc {
+
+    text-align: center;
+}
+
+
+.div img {
+    margin: 1px;
+    position: relative;
+}
+
+.galary:hover {
+    outline: 1.5px solid black;
+    width: 205px;
+}

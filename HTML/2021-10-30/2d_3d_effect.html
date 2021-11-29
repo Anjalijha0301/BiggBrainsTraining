@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>2D & 3D Effects</title>
+    <style>
+    #translate {
+        width: 100px;
+        padding: 10px;
+        outline: 2px solid red;
+        transform: translate(100px, 50px);
+    }
+
+    #rotate {
+        width: 100px;
+        padding: 10px;
+        outline: 2px solid red;
+        transform: rotate(50deg);
+
+    }
+
+    #scale {
+        margin-left: 30px;
+        width: 100px;
+        padding: 10px;
+        outline: 2px solid red;
+        /*transform: scale(1.5, 2.5);*/
+        /*transform: scaleX(2, 3);*/
+        /*        transform: scaleY(2);
+*/
+        /*        transform: skewx(50deg);
+*/
+        /*        transform: skew(20deg, 30deg);
+*/
+        transform: matrix(1, 0, 2, 1, 2, 2);
+    }
+
+    #animation1 {
+        margin-left: 30px;
+        width: 100px;
+        padding: 10px;
+        background-color: blue;
+        color: white;
+        transition: width 2s, height 2s, transform 2s;
+    }
+
+    #animation1:hover {
+        width: 200px;
+        height: 100px;
+        transform: rotate(360deg);
+
+    }
+
+    #animation2 {
+        margin-left: 30px;
+        width: 100px;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        /*transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 1s;*/
+        transition: width 2s linear 1s;
+    }
+
+    #animation2:hover {
+        width: 500px;
+    }
+
+    #animation3 {
+        margin-left: 30px;
+        width: 100px;
+        padding: 10px;
+        background-color: purple;
+        color: white;
+        animation-name: example;
+        animation-duration: 2s;
+        position: relative;
+    }
+
+
+    @keyframes example {
+        from {
+            background-color: red;
+        }
+
+        to {
+            background-color: yellow;
+        }
+    }
+
+    #animation4 {
+        margin-left: 30px;
+        width: 100px;
+        padding: 10px;
+        background-color: gray;
+        color: white;
+        animation-name: example2;
+        animation-duration: 10s;
+        transition-delay: 5s;
+        position: relative;
+        /*        animation-iteration-count: 10;
+*/
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example2 {
+        0% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+
+        25% {
+            background-color: yellow;
+            left: 500px;
+            top: 0px;
+            color: red;
+        }
+
+    }
+    </style>
+</head>
+
+<body>
+    <p id="translate">Transform translate method</p><br>
+    <p id="rotate">Transform Rotate method</p><br>
+    <p id="scale">Transform Rotate method</p><br>
+    <p id="animation1">Transform animation method</p><br>
+    <p id="animation2">Transform animation method</p><br>
+    <p id="animation3">Transform animation method</p><br>
+    <p id="animation4">Transform animation method</p><br>
+</body>
+
+</html>

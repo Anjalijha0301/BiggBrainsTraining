@@ -1,0 +1,11 @@
+.container {
+    background-color: gray;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a:active {
+    color: skyblue;
+}

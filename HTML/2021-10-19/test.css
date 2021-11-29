@@ -1,0 +1,68 @@
+.container {
+    margin: 0 auto;
+}
+
+.red {
+    /*    display: inline;*/
+    background-color: darkred;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blue {
+    /*    display: block;*/
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+table,
+td,
+th {
+    border: 2px solid green;
+    width: 40%;
+    padding: 5px;
+    border-collapse: collapse;
+    cursor: pointer;
+
+}
+
+td:hover {
+    height: 25px;
+    outline: none;
+    background-color: yellow;
+
+}
+
+tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+.blocks {
+    width: ;
+    background-color: #dae2f0;
+    display: inline;
+
+
+}
+
+.block {
+    padding: 10px;
+    background-color: #dae2f0;
+    display: flex;
+    width: 300px;
+
+}
+
+.left {
+    float: left;
+    font-size: 20px;
+    width: 80%;
+}
+
+.right {
+    background-color: #aac7fa;
+    height: 30px;
+    margin-top: 20px;
+    float: right;
+}

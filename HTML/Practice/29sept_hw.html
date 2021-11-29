@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>29thseptHW</title>
+    <style>
+    .flexbox-container {
+        display: flex;
+        /* flex-direction: column;*/
+        /*direction*/
+        /* flex-direction: column-reverse;*/
+        /*flex-direction: row;*/
+        /*flex-direction: row-reverse;*/
+        /*wrap*/
+        /* flex-wrap: wrap;*/
+        /*flex-wrap: nowrap;*/
+        /*flex-wrap: wrap-reverse;*/
+        /*flow*/
+        /*flex-flow: row wrap;*/
+        /*justify contant*/
+        /*justify-content: center;*/
+        align-content: space-between;
+        background-color: DodgerBlue;
+        height: 200px;
+    }
+
+    .flexbox-container>div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+    .flex-container {
+
+        display: flex;
+        background-color: gray;
+    }
+
+    .flex-container>div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+
+    }
+
+    .flex-grow {
+        display: flex;
+        background-color: violet;
+    }
+
+    .flex-grow>div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+
+    }
+
+    .flex-container-shrink {
+        display: flex;
+        align-items: stretch;
+        background-color: seagreen;
+    }
+
+    .flex-container-shrink>div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+    }
+    </style>
+</head>
+
+<body>
+    <h1>flexbox</h1>
+    <div class="flexbox-container">
+        <div>2</div>
+        <div>4</div>
+        <div>6</div>
+    </div>
+    <h1>order Property</h1>
+    <div class="flex-container">
+        <div style="order:4">8</div>
+        <div style="order:3">10</div>
+        <div style="order:2">12</div>
+        <div style="order:1">14</div>
+    </div>
+    <h1>flex grow Property</h1>
+    <div class="flex-grow">
+        <div style="flex-grow:2">8</div>
+        <div style="flex-grow:1">10</div>
+        <div style="flex-grow:5">12</div>
+        <div style="flex-grow:1">14</div>
+    </div>
+    <div class="flex-container-shrink">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-shrink: 0">3</div>
+        <div style="flex-basis: 200px">4</div>
+        <div style="flex:0 0 300px">5</div>
+        <div style="align-self: flex-start;">6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+</body>
+
+</html>

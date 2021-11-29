@@ -1,0 +1,41 @@
+.container {
+    width: 60%;
+    margin-left: 100px;
+    text-align: center;
+    box-shadow: 1px 3px 4px #b3b4b5;
+    padding: 16px;
+    border-radius: 50px;
+    transition: width 2s, height 2s, transform 5s;
+}
+
+
+
+.container:hover {
+    box-shadow: 2px 3px 5px #929496;
+    transform: rotate(360deg);
+
+
+}
+
+
+header p {
+    padding: 40px;
+    color: black;
+    text-align: left;
+    border-bottom: 2px solid #cacbcc;
+}
+
+.content {
+    /*    background-color: #e1e3e6;*/
+    padding: 100px;
+    text-align: left;
+
+
+}
+
+footer {
+    border-top: 2px solid #cacbcc;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Inline and block element</title>
+    <style>
+    .olstyle {
+        list-style-type: lower-roman;
+    }
+
+    #ulstyle {
+        list-style-type: square;
+
+    }
+
+    .ulimg {
+        list-style-image: url('icon.png');
+    }
+
+    .Position {
+        list-style-position: outside;
+    }
+
+    .liststyle {
+        list-style: disc inside url("icon.png");
+    }
+
+    /*table {
+        border: 2px solid red;
+    }*/
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th,
+    td {
+        border-bottom: 1px solid grey;
+    }
+
+    th {
+        background-color: violet;
+        color: white;
+    }
+
+    tr:hover {
+        background-color: yellow;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ddd9;
+    }
+    </style>
+</head>
+
+<body>
+    <p style="border:2px solid red;">This is block element</p>
+    <div style="border:2px solid black;">div is a block element</div>
+    <ul style="border:2px solid green;">ul is a block element</ul>
+    <em style="border:2px solid yellow;">em is a inline element</em> <span style="border:2px solid orange;">span is a inline element</span>
+    <blockquote style="border:2px solid greenyellow;">bq is a block element</blockquote>
+    <strong style="border: 2px solid blueviolet;">stronf is a inline element</strong>
+    <h3>Orderd list</h3>
+    <ol class="olstyle">
+        <li>anjali</li>
+        <li>20 year</li>
+        <li>pursuing graduation</li>
+    </ol>
+    <h3>Unorderd list</h3>
+    <ul id="ulstyle">
+        <li>heena </li>
+        <li>14</li>
+        <li>9th class</li>
+    </ul>
+    <h3>Image</h3>
+    <ul class="ulimg">
+        <li>Tannu </li>
+        <li>14</li>
+        <li>9th class</li>
+    </ul>
+    <h3>Position</h3>
+    <ol class="Position">
+        <li>anjali</li>
+        <li>20 year</li>
+        <li>pursuing graduation</li>
+    </ol>
+    <h3>liststyle</h3>
+    <ol class="liststyle">
+        <li>anjali</li>
+        <li>20 year</li>
+        <li>pursuing graduation</li>
+    </ol>
+    <h3>Tables</h3>
+    <!-- <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+        </tr>
+    </table> -->
+    <div style="overflow-x: auto;">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>Swanson</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Cleveland</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
