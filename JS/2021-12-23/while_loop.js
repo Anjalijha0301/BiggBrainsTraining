@@ -1,0 +1,1 @@
+const person { fname: "anjali", lname: "jha", age: "20" }

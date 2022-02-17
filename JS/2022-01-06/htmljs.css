@@ -1,0 +1,19 @@
+#button2 {
+    margin-top: 10px;
+}
+
+.table {
+    margin-left: 60px;
+    background-color: skyblue;
+
+
+}
+
+.table tr td {
+    padding: 40px;
+}
+
+.table th {
+    color: white;
+    background-color: darkblue;
+}

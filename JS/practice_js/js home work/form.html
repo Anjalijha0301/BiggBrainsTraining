@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>formSubmit</title>
+</head>
+
+<body>
+    <form name="myform" action="index.php">
+        Search: <input type="text" name="formInput" />
+        <a href="javascript:submitform()">Search</a>
+    </form>
+    <script>
+    function submitform() {
+        document.myform.submit();
+    }
+    document.body.bgColor = "pink";
+    </script>
+</body>
+
+</html>

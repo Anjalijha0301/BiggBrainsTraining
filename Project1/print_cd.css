@@ -53,6 +53,7 @@
 .table td {
     padding: 0px;
     /*    border: 1px solid black;*/
+    text-align: center;
 }
 
 #total {
@@ -61,6 +62,21 @@
 
 tbody {
     border: 0px transparent;
+}
+
+.amt-words {
+    background-color: #d2e0f7;
+    /*    padding: 8px;*/
+    border: 1px solid #abcaff;
+    border-radius: 8px;
+    color: slategray;
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+#amnt_word {
+    font-size: 12PX;
 }
 
 @media print {

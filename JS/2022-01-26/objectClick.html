@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Types of js Objects</title>
+</head>
+
+<body>
+    <p id="objct1"></p>
+    <button type="button" onclick="objectOne()">Tarika 1</button>
+    <button type="button" onclick="objectTwo()">Tarika 2</button>
+    <button type="button" onclick="objectThree()">Tarika 3</button>
+    <button type="button" onclick="objectFour()">Tarika 4</button>
+    <script>
+    const person = {
+        firstName: "John",
+        lastName: "Doe",
+        id: 5566,
+    };
+
+    function objectOne() {
+        document.getElementById("objct1").innerHTML = person.firstName;
+    }
+
+    function objectTwo() {
+        document.getElementById("objct1").innerHTML = Object.values(person);
+    }
+
+    function objectThree() {
+        let txt = "";
+        for (let x in person) {
+            txt += person[x] + " ";
+        }
+        document.getElementById("objct1").innerHTML = txt;
+    }
+
+    function objectFour() {
+        document.getElementById("objct1").innerHTML = JSON.stringify(person);
+    }
+    </script>
+</body>
+
+</html>

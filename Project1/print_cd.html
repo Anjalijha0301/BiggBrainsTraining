@@ -32,7 +32,7 @@
                     </div>
                     <!--         Calculator     -->
                     <div class="col-6">
-                        <table class="table mt-0">
+                        <table class="table mt-0 mb-0">
                             <tbody>
                                 <tr class="mytd">
                                     <td>2000</td>
@@ -69,42 +69,36 @@
                                     <td>=</td>
                                     <td id="r50"></td>
                                 </tr>
-                                <tr class="mytd">
-                                    <td>20</td>
-                                    <td>X</td>
-                                    <td id="t20"></td>
-                                    <td>=</td>
-                                    <td id="r20"></td>
-                                </tr>
-                                <tr class="mytd">
-                                    <td>10</td>
-                                    <td>X</td>
-                                    <td id="t10"></td>
-                                    <td>=</td>
-                                    <td id="r10"></td>
-                                </tr>
-                                <tr class="mytotal">
-                                    <td></td>
-                                    <td></td>
-                                    <span>
-                                        <td style="background-color: papayawhip;"><b>Total</b></td>
-                                        <td style="background-color: papayawhip;">=</td>
-                                        <td style="background-color: papayawhip;"><b id="pTotal"></b></td>
-                                    </span>
-                                </tr>
+                                <!-- <tr class="mytd">
+    <td>20</td>
+    <td>X</td>
+    <td id="t20"></td>
+    <td>=</td>
+    <td id="r20"></td>
+</tr>
+<tr class="mytd">
+    <td>10</td>
+    <td>X</td>
+    <td id="t10"></td>
+    <td>=</td>
+    <td id="r10"></td>
+</tr> -->
                             </tbody>
                         </table>
                     </div>
-                    <div class="trow" style="margin-top:0px;  font-size: 13px;">
-                        <h5 class="col-sm-5 col-form-label">
-                            <b>Total Amount</b>(In words):
-                        </h5>
-                    </div>
-                    <div class="d-flex justify-content-between row ">
-                        <h6 class="col-6 text-start" style="margin-top:0px;  font-size: 13px;">Depositor:&emsp;<span>_____________________</span></h6>
-                        <h6 class=" col-6 text-end" style="margin-top:0px;  font-size: 13px;">Receiver:&emsp;<span>____________________</span>
-                        </h6>
-                    </div>
+                </div>
+                <div class="row ms-1 me-1">
+                    <p class="mt-0">Total Amount&ensp;&ensp;&emsp;: &ensp;
+                        <b>
+                            <span class="vals" id="pTotal" name="pTotal"></span>
+                            ( <span class="vals" id="amnt_word" name="amnt_word"></span> )
+                        </b>
+                    </p>
+                </div>
+                <div class="d-flex justify-content-between row mt-2 ms-1 me-1">
+                    <h6 class="col-auto text-start" style="margin-top:0px;  font-size: 13px;"><b>Depositor:</b>&emsp;<span id="Depositor"></span></h6>
+                    <h6 class=" col-auto text-end" style="margin-top:0px;  font-size: 13px;"><b>Receiver:</b>&emsp;<span id="receiver"></span>&emsp;| Sign : _____________________
+                    </h6>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ function submit() {
     var name = document.getElementById('exampleInputName').value;
     alert(name)
 }
+
 function reset() {
     alert("Resetting values...")
 }
@@ -16,17 +17,17 @@ function onSumChange() {
     let p2000 = parseInt(document.getElementById('p2000').innerHTML)
     p2000 = isNaN(p2000) ? 0 : p2000
     let p500 = parseInt(document.getElementById('p500').innerHTML)
-    p2000 = isNaN(p500) ? 0 : p500
+    p500 = isNaN(p500) ? 0 : p500
     let p200 = parseInt(document.getElementById('p200').innerHTML)
-    p2000 = isNaN(p200) ? 0 : p200
+    p200 = isNaN(p200) ? 0 : p200
     let p100 = parseInt(document.getElementById('p100').innerHTML)
-    p2000 = isNaN(p100) ? 0 : p100
+    p100 = isNaN(p100) ? 0 : p100
     let p50 = parseInt(document.getElementById('p50').innerHTML)
-    p2000 = isNaN(p50) ? 0 : p50
+    p50 = isNaN(p50) ? 0 : p50
     let p20 = parseInt(document.getElementById('p20').innerHTML)
-    p2000 = isNaN(p20) ? 0 : p20
+    p20 = isNaN(p20) ? 0 : p20
     let p10 = parseInt(document.getElementById('p10').innerHTML)
-    p2000 = isNaN(p10) ? 0 : p10
+    p10 = isNaN(p10) ? 0 : p10
 
 
     let sum = p2000 + p500 + p200 + p100 + p50 + p20 + p10

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="htmljs.css">
+    <title>Food Menue</title>
+</head>
+
+<body>
+    <h1>Food Menue</h1>
+    <div>
+        <input id="fName" type="text" placeholder="Food Name">
+        <input id="fValue" type="text" placeholder="Food Value">
+        <input id="fType" type="text" placeholder="Food Type">
+        <input id="fImg" type="url" placeholder="Food Image url">
+        <input type="button" name="addbutton" value="Add" onclick="addFoodItem()">
+        <br>
+        <input id="button2" type="button" name="ClearAll" value="Clear All" onclick="hideTable()">
+    </div>
+    <h1>Add Foods Here</h1>
+    <div>
+        <table id="myTable" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">S no.</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price(INR)</th>
+                    <th scope="col">Food</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">1</td>
+                    <td></td>
+                    <td></td>
+                    <td><img src="https://tse4.mm.bing.net/th?id=OIP.eD7MpRmuCp5oKFlcdoKmuwHaE8&pid=Api&P=0&w=234&h=157"></td>
+                </tr>
+                <tr>
+                    <td scope="row">2</td>
+                    <td></td>
+                    <td></td>
+                    <td><img src="https://tse1.mm.bing.net/th?id=OIP.4Cg8BdDAgjKrtQQ92KYoLQHaE8&pid=Api&P=0&w=247&h=165"></td>
+                </tr>
+                <tr>
+                    <td scope="row">3</td>
+                    <td></td>
+                    <td></td>
+                    <td><img src="https://tse2.mm.bing.net/th?id=OIP.S2vhUCXk144wzyrwkIv_wAHaFG&pid=Api&P=0&w=244&h=168"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="htmljs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>random_js</title>
+</head>
+
+<body>
+    <input id="ageinput" value="18" />
+    <button onclick="myFunction()">try it</button>
+    <p id="income"></p>
+    <script>
+    //boolean
+    const salary = 60000
+    let greeting;
+
+    if (salary > 40000) {
+        greeting = "Congratulations you are employee of the year";
+    } else {
+        greeting = "You need to work more";
+    }
+    document.getElementById('income').innerHTML = greeting;
+
+    function myFunction() {
+        let age = document.getElementById('ageinput').value;
+        let voteable = (age < 18) ? "Too Young" : "Old enough";
+        document.getElementById("income").innerHTML = voteable + "You can vote"
+    }
+    </script>
+</body>
+
+</html>
